@@ -71,7 +71,8 @@ npm start
 
 ## Change Log
 
-0.0.1 : The Project Initialized - 27 Jan 2022
+0.0.1 : The Project Initialized - 27 Jan 2022 16:00
+0.0.1 : Header of app created - 27 Jan 2022 18:50
 
 ---
 
