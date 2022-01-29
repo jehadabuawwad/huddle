@@ -1,14 +1,18 @@
 import { IHeaderProps } from "../interfaces/components";
-import { StyledHeader } from "./styles/StyledHeader";
-
+import { StyledHeader, StyledNav, StyledLogo } from "./styles/StyledHeader";
+import { StyledContainer } from "./styles/StyledContainer";
+import { StyledButton } from "./styles/StyledButton";
+import logo from "../public/images/logo.svg";
 const Header: React.FunctionComponent<IHeaderProps> = (props) => {
   return (
-    <StyledHeader >
-      <ul>
-        <li>test1</li>
-        <li>test2</li>
-        <li>test3</li>
-      </ul>
+    <StyledHeader>
+      <StyledContainer>
+        <StyledNav>
+          <StyledLogo>
+            <StyledButton>Try It Free</StyledButton>
+          </StyledLogo>
+        </StyledNav>
+      </StyledContainer>
     </StyledHeader>
   );
 };
