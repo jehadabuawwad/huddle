@@ -9,8 +9,10 @@ export const StyledButton = styled.button`
   font-weight: 700;
   padding: 15px 60px;
   background-color: ${({ bg }) => bg || "#fff"};
-  color: ${({ color }) => color || "#fff"};
-
+  color: ${({ color }) => color || "#000"};
+  margin-left: auto;
+  position: relative;
+  right: 5%;
   &:hover {
     opacity: 0.9;
     transform: scale(0.9);

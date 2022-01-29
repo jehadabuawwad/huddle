@@ -8,11 +8,8 @@ export const StyledHeader = styled.header`
 export const StyledNav = styled.nav`
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   margin-bottom: 40px;
 `;
-export const StyledLogo = styled.img`
-  width: 100px;
-  height: 100px;
-`;
+
