@@ -1,5 +1,5 @@
 import { IHeaderProps } from "../interfaces/components";
-import { StyledHeader, Nav } from "./styles/HeaderStyled";
+import { StyledHeader, StyledImage, Nav } from "./styles/HeaderStyled";
 import { Container } from "./styles/Container";
 import { Button } from "./styles/Button";
 import Image from "next/image";
@@ -29,8 +29,8 @@ const Header: React.FunctionComponent<IHeaderProps> = (props) => {
                 Get Started For Free
               </Button>
             </div>
+            <StyledImage as='img' title='image' src={HeaderImage} alt='' />
           </Container>
-          <Image src={HeaderImage} alt='' width='500px' height='350px' />
         </Flex>
       </Container>
     </StyledHeader>

@@ -7,5 +7,6 @@ export const Container = styled.div<IContainerProps>`
   height: ${(props) => props.height || "auto"};
   max-width: 95%;
   padding: 0px 20px;
-  margin: 40px;
+  margin-left: auto;
+  margin-right: auto;
 `;

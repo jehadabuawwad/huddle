@@ -4,6 +4,9 @@ export interface IHeaderProps {
 export interface INavProps {
   title: string;
 }
+export interface IImageProps {
+  title: string;
+}
 export interface IButtonProps {
   title: string;
   bg?: string;
