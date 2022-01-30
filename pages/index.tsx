@@ -7,6 +7,7 @@ import useResource from "../hooks/getResource";
 
 import { Container } from "../components/styles/Container";
 import Header from "../components/Header";
+import Cards from "../components/Cards";
 
 const Home: NextPage = () => {
   const data = useSelector((state: RootStateOrAny) => state.data);
@@ -23,7 +24,7 @@ const Home: NextPage = () => {
       </Head>
       <Header title='header' />
       <Container title='body-container'>
-        <h1>Hello Styled Container</h1>
+        <Cards />
       </Container>
     </>
   );

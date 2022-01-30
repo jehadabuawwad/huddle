@@ -11,14 +11,11 @@ export const Button = styled.button<IButtonProps>`
   font-weight: 700;
   padding: 15px 60px;
   background-color: ${({ bg }) => bg || "#fff"};
-  color: ${({ color }) => color || "#000"};
+  color: ${({ color }) => color || "#333"};
+  margin-bottom: 25px;
 
   &:hover {
     opacity: 0.9;
-    transform: scale(0.9);
+    transform: scale(0.98);
   }
-
-  @media (max-width: ${({ theme }) => theme.mobile}) {
-    margin-top: 10px;
-  } ;
 `;
