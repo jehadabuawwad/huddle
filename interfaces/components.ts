@@ -25,3 +25,6 @@ export interface ICardProps {
   height?: string;
   layout?: any;
 }
+export interface IFooterProps {
+  title: string;
+}
