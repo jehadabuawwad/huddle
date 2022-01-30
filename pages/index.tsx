@@ -1,6 +1,6 @@
 import type { NextPage } from "next";
 
-import { StyledContainer } from "../components/styles/StyledContainer";
+import { Container } from "../components/styles/Container";
 import Header from "../components/Header";
 import Head from "next/head";
 const Home: NextPage = () => {
@@ -10,9 +10,9 @@ const Home: NextPage = () => {
         <title>Buddle</title>
       </Head>
       <Header title='header' />
-      <StyledContainer>
+      <Container title="body-container">
         <h1>Hello Styled Container</h1>
-      </StyledContainer>
+      </Container>
     </>
   );
 };

@@ -1,21 +1,21 @@
 import { IHeaderProps } from "../interfaces/components";
-import { StyledHeader, StyledNav } from "./styles/StyledHeader";
-import { StyledContainer } from "./styles/StyledContainer";
-import { StyledButton } from "./styles/StyledButton";
+import { StyledHeader, Nav } from "./styles/HeaderStyled";
+import { Container } from "./styles/Container";
+import { Button } from "./styles/Button";
 import Image from "next/image";
 import Logo from "../public/images/logo.svg";
 import HeaderImage from "../public/images/illustration-mockups.svg";
-import { Flex } from "../components/styles/Flex.styled";
+import { Flex } from "./styles/Styled.Flex";
 const Header: React.FunctionComponent<IHeaderProps> = (props) => {
   return (
-    <StyledHeader>
-      <StyledContainer>
-        <StyledNav>
+    <StyledHeader title='header'>
+      <Container title='header-head'>
+        <Nav title='header-nav'>
           <Image src={Logo} alt='' width='150px' height='25px' />
-          <StyledButton >Try It Free</StyledButton>
-        </StyledNav>
+          <Button title='try-it-button'>Try It Free</Button>
+        </Nav>
         <Flex>
-          <StyledContainer>
+          <Container title='header-body' height='100%'>
             <div>
               <h1>Build The Community Your Fans Will Love</h1>
 
@@ -25,14 +25,14 @@ const Header: React.FunctionComponent<IHeaderProps> = (props) => {
                 users as you engage in genuine discussion.
               </p>
 
-              <StyledButton bg='#ff0099' color='#fff'>
+              <Button title='get-started-button' bg='#ff0099' color='#fff'>
                 Get Started For Free
-              </StyledButton>
+              </Button>
             </div>
-          </StyledContainer>
+          </Container>
           <Image src={HeaderImage} alt='' width='500px' height='350px' />
         </Flex>
-      </StyledContainer>
+      </Container>
     </StyledHeader>
   );
 };
