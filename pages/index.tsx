@@ -27,7 +27,7 @@ const Home: NextPage = () => {
       <Container title='body-container'>
         <Cards />
       </Container>
-      <Footer/>
+      <Footer title='footer' />
     </>
   );
 };
