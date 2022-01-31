@@ -1,3 +1,3 @@
-export const RetrieveData = (data) => {
-  return { type: "retrieve", data: data };
+export const RetrieveData = () => {
+  return { type: "retrieve" };
 };

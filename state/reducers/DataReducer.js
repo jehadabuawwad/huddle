@@ -1,7 +1,7 @@
-const DataReducer = (state = {}, action) => {
+import content from "../../public/content";
+
+const DataReducer = (state = content, action) => {
   switch (action.type) {
-    case "retrieve":
-      return action.data;
     default:
       return state;
   }

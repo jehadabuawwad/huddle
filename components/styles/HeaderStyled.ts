@@ -13,21 +13,25 @@ export const StyledHeader = styled.header<IHeaderProps>`
 export const Nav = styled.nav<INavProps>`
   display: flex;
   flex-direction: row;
-  justify-content: stretch;
+  justify-content: flex-start;
   align-items: center;
   margin-bottom: 40px;
 
+  button {
+    position: absolute;
+    right: 10px;
+  }
+
   @media (max-width: ${({ theme }) => theme.mobile}) {
     flex-direction: column;
-    justify-content: stretch;
-    align-items: center;
+    justify-content: center;
+    align-items: flex-start;
   } ;
 `;
 
 export const StyledImage = styled(Image)<IImageProps>`
   @media (max-width: ${({ theme }) => theme.mobile}) {
-    margin-top: 10px;
+    margin-top: 25px;
     width: 100%;
-    
   } ;
 `;

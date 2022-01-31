@@ -11,7 +11,7 @@ const Header: React.FunctionComponent<IHeaderProps> = (props) => {
     <StyledHeader title='header'>
       <Container title='header-head'>
         <Nav title='header-nav'>
-          <Image src={Logo} alt='' width='150px' height='25px' />
+          <StyledImage title="logo-image" src={Logo} alt='' width='150px' height='25px' />
           <Button title='try-it-button'>Try It Free</Button>
         </Nav>
         <Flex>
@@ -29,7 +29,7 @@ const Header: React.FunctionComponent<IHeaderProps> = (props) => {
                 Get Started For Free
               </Button>
             </div>
-            <StyledImage as='img' title='image' src={HeaderImage} alt='' />
+            <StyledImage as='img' title='header-image' src={HeaderImage} alt='' />
           </Container>
         </Flex>
       </Container>
