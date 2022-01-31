@@ -18,9 +18,10 @@ for styling comopnents using styled components.
 
 ## Recent Updates
 
-#### V 0.1.0
+#### V 1.0.0
 
 - The Project Initialized - 27 Jan 2022
+- The Home page released - 31 Jan 2022 
 
 ---
 
@@ -35,13 +36,13 @@ $ git clone https://github.com/Jehadabuawwad/huddle.git
 ### to build the project
 
 ```bash
-npm i
+yarn install
 ```
 
 ### to start the server
 
 ```bash
-npm start
+yarn dev
 ```
 
 ---
@@ -72,9 +73,9 @@ npm start
 ## Change Log
 
 - 0.1.0 : The Project Initialized - 27 Jan 2022 16:00
-- 0.1.0 : Header of app created - 27 Jan 2022 18:50
-- 0.1.0 : Content of the page added - 30 Jan 2022 17:45
-- 0.1.0 : Footer of app created - 30 Jan 2022 18:20
+- 0.1.1 : Header of app created - 27 Jan 2022 18:50
+- 0.1.2 : Content of the page added - 30 Jan 2022 17:45
+- 0.1.3 : Footer of app created - 30 Jan 2022 18:20
 
 
 ## Authors
