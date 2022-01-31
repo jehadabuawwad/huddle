@@ -8,6 +8,7 @@ import useResource from "../hooks/getResource";
 import { Container } from "../components/styles/Container";
 import Header from "../components/Header";
 import Cards from "../components/Cards";
+import Footer from "../components/Footer";
 
 const Home: NextPage = () => {
   const data = useSelector((state: RootStateOrAny) => state.data);
@@ -26,6 +27,7 @@ const Home: NextPage = () => {
       <Container title='body-container'>
         <Cards />
       </Container>
+      <Footer title='footer' />
     </>
   );
 };
